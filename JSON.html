@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blog de Programacion</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <style>
+        /* Media query para hacer el diseño responsive */
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="hito.html">Inicio</a>
+        <a class="navbar-brand" href="XML.html">XML</a>
+        <a class="navbar-brand" href="JSON.html">JSON</a>    
+        <a class="navbar-brand" href="contacto.html">contacto</a>                
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>¿Qué es JSON?</h1>
+                <p>
+                    JSON significa Notación de Objetos de JavaScript. Es una forma de almacenar y organizar los datos que se puede leer tanto por las máquinas como por los humanos.
+                </p>
+
+                <h2>¿Cómo se ve el JSON?</h2>
+                <p>
+                    Un documento JSON se compone de pares de claves y valores. Aquí tienes un ejemplo muy sencillo:
+                </p>
+                <pre>
+                {
+                    "nombre": "Juan",
+                    "edad": 30,
+                    "ciudad": "Madrid"
+                }
+                </pre>
+                <p>
+                    En este ejemplo, "nombre", "edad" y "ciudad" son las claves, y "Juan", 30 y "Madrid" son los valores correspondientes.
+                </p>
+
+                <h2>¿Cómo se usa JSON?</h2>
+                <p>
+                    JSON se utiliza para almacenar y transportar datos. Por ejemplo, si tienes una aplicación que necesita guardar los datos del usuario, podrías usar JSON para hacerlo. Cuando necesites recuperar esos datos, simplemente lees el archivo JSON.
+                </p>
+                <p>
+                    JSON también se utiliza para enviar datos a través de Internet. Por ejemplo, si tienes una aplicación que necesita obtener datos del tiempo de un servicio web, ese servicio podría enviarte los datos en formato JSON.
+                </p>
+            </div>
+            
+                <img src="json-response.png" alt="no va" class="img2">
+            
+        </div>
+    </div>
+</body>
+</html>
